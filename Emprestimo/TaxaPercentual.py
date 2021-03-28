@@ -36,19 +36,19 @@ class Emprestimo():
             return "{}/{:0.2f}/{:0.2f}/{:0.2f}/{:0.2f}/{:0.2f}/{:0.2f}/{:0.2f}".format(self.nome, self.valor, self.quant, self.perc, self.perc_recebido, self.pago, self.mont, self.perc_atual)
     
 
-parar_rotina = False
-lista_emprestimos = []
+#parar_rotina = False
+#lista_emprestimos = []
 
-while parar_rotina == False:
-    devedor = Emprestimo() #Instância da Classe
+#while parar_rotina == False:
+#    devedor = Emprestimo() #Instância da Classe
 
-    if devedor.nome_devedor() == "fim":
-        parar_rotina = True
+#    if devedor.nome_devedor() == "fim":
+#        parar_rotina = True
 
-    else:
-        devedor.situacao_emprestimo()
-        lista_emprestimos.append(devedor)
+#    else:
+#        devedor.situacao_emprestimo()
+#        lista_emprestimos.append(devedor)
     
 #resultado.to_csv("AppDesenvolvimento\Estudos\Exemplos\Emprestimo\lista_emprestimos.csv")
-resultado = pd.DataFrame(lista_emprestimos)
-print(resultado)
+#resultado = pd.DataFrame(lista_emprestimos)
+#print(resultado)
