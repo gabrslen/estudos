@@ -12,3 +12,5 @@ for i in range (n):
 
 b = {'Admno':admno,'Name':name}
 c = pd.DataFrame(b)
+
+print(c)
